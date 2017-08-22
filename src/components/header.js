@@ -26,10 +26,10 @@ export default class Header extends React.Component  {
         }
 
         return (
-            <header>
+            <header className="header">
                 <TopNav onInfo={() => this.toggleInfoModal()}
                     onNewGame={this.props.onNewGame} />
-                {infoModal}
+                {infoModal} 
                 <h1>HOT or COLD</h1>
             </header>
         );

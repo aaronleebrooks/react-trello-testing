@@ -19,7 +19,7 @@ export default class TopNav extends React.Component {
 
     render() {
         return (
-            <nav>
+            <nav className="nav-list">
                 <ul className="clearfix">
                     <li>
                         <a className="what" href="#" onClick={e => this.onInfo(e)}>
